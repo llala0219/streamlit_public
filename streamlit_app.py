@@ -4,8 +4,8 @@ import numpy as np
 import altair as alt
 
 df = pd.DataFrame({
-    'first column' : [1, 2, 3, 4],
-    'second column' : [10, 20, 30, 40]
+    'first column' : [10, 20, 30, 40],
+    'second column' : [100, 200, 300, 400]
     })
 st.write(df)
 
